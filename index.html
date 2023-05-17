@@ -1,22 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Video Gallery | upCoding</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="video-wrapper">
-        <i class="fa-regular fa-circle-play"></i>
-      </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Video Gallery | upCoding</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="video-wrapper">
+      <i class="fa-regular fa-circle-play"></i>
+      <video id="videos" src="assets/videos/Kenichi Vs Boris Ivanov.mp4" width="700" height="500" controls></video>
     </div>
-    <script src="script.js"></script>
-  </body>
+    <ul class="video-playlist">
+      <li class="video">
+        <div class="video-img">
+          <i class="fa-regular fa-circle-play"></i>
+          <video src="assets/videos/y2mate.com - Demon Slayer  Opening 1  4K  60FPS  Creditless _720pFHR.mp4"></video>
+        </div>
+        <div class="video-details">
+          <h4>Video title goes here...</h4>
+          <p>Video description goes here</p>
+        </div>
+      </li>
+        <li class="video">
+          <div class="video-img">
+            <i class="fa-regular fa-circle-play"></i>
+            <video src="assets/videos/y2mate.com - Demon Slayer  Opening 1  4K  60FPS  Creditless _720pFHR.mp4"></video>
+          </div>
+          <div class="video-details">
+            <h4>Video title goes here...</h4>
+            <p>Video description goes here</p>
+          </div>
+        </li>
+          <li class="video">
+            <div class="video-img">
+              <i class="fa-regular fa-circle-play"></i>
+              <video src="assets/videos/y2mate.com - Pickle vs YujiroHanma Baki S2 AMVWhat Can You Say_720pFHR.mp4"></video>
+            </div>
+            <div class="video-details">
+              <h4>Video title goes here...</h4>
+              <p>Video description goes here</p>
+            </div>
+          </li>
+            <li class="video">
+              <div class="video-img">
+                <i class="fa-regular fa-circle-play"></i>
+                <video src="assets/videos/y2mate.com - Isekai de Cheat Skill wo Te ni Shita Ore wa OP Full  Gyakuten Geki  Sub Español AMV _v720P.mp4"></video>
+              </div>
+              <div class="video-details">
+                <h4>Video title goes here...</h4>
+                <p>Video description goes here</p>
+              </div>
+            </li>
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+
 </html>
